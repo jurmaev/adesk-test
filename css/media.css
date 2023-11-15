@@ -1,0 +1,346 @@
+@media (max-width: 1500px) {
+  .header__link {
+    margin-right: 40px;
+  }
+
+  .header__demo {
+    display: none;
+  }
+}
+
+@media (max-width: 1210px) {
+  .burger__btn {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .balance-info__container,
+  .finance__container,
+  .health__container,
+  .report__container {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 990px) {
+  .header__container {
+    padding: 20px 30px 18px 30px;
+  }
+
+  .balance__container {
+    padding-top: 120px;
+  }
+
+  .balance__title {
+    font-size: 55px;
+    letter-spacing: -0.55px;
+  }
+
+  .balance-info,
+  .finance,
+  .health,
+  .balance-master,
+  .report {
+    padding-top: 150px;
+  }
+
+  .balance-info__container,
+  .finance__container,
+  .report__container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .balance-info__text,
+  .finance__title,
+  .finance__text,
+  .health__title,
+  .health__text,
+  .report__title,
+  .report__text {
+    text-align: center;
+  }
+
+  .finance__left,
+  .health__right,
+  .report__left {
+    max-width: none;
+  }
+
+  .health__container {
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+
+  .balance-master__text {
+    margin-bottom: 40px;
+  }
+
+  .start {
+    padding: 200px 0;
+  }
+
+  .footer__container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      'logo social'
+      'left right'
+      'apps apps'
+      'docs docs';
+    gap: 0 20px;
+  }
+
+  .footer__left,
+  .footer__right {
+    grid-auto-flow: row;
+    grid-auto-rows: max-content;
+    gap: 40px;
+  }
+
+  .footer__logo {
+    margin-bottom: 50px;
+  }
+
+  .footer__social {
+    padding: 0;
+    align-items: flex-start;
+  }
+
+  .footer__info {
+    margin-bottom: 50px;
+  }
+
+  .footer__tel {
+    margin-bottom: 15px;
+  }
+
+  .footer__apps {
+    margin-top: 80px;
+    border-bottom: none;
+  }
+
+  .footer-docs__item:first-child {
+    color: white;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .header__container {
+    position: relative;
+    justify-content: center;
+    padding: 23px 15px;
+  }
+
+  .burger__btn {
+    position: absolute;
+    top: 23px;
+    right: 15px;
+  }
+
+  .header__actions {
+    display: none;
+  }
+
+  .header__link {
+    margin-right: 0;
+  }
+
+  .balance__container {
+    padding-top: 70px;
+  }
+
+  .balance__title {
+    margin-bottom: 15px;
+    font-size: 40px;
+    line-height: 1.15;
+    letter-spacing: -0.4px;
+  }
+
+  .balance__text {
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+
+  .balance__btn {
+    margin-bottom: 40px;
+    padding: 12px 20px;
+    font-size: 18px;
+  }
+
+  .balance-info,
+  .finance,
+  .health,
+  .balance-master,
+  .report,
+  .start {
+    padding-top: 100px;
+  }
+
+  .balance-info__container,
+  .finance__container,
+  .health__container,
+  .report__container {
+    gap: 20px;
+  }
+
+  .balance-info__text {
+    font-size: 22px;
+  }
+
+  .finance__left,
+  .health__right,
+  .report__left {
+    gap: 15px;
+  }
+
+  .finance__title,
+  .health__title,
+  .balance-master__title,
+  .report__title,
+  .start__title {
+    text-align: left;
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: -0.15px;
+  }
+
+  .finance__text,
+  .health__text,
+  .balance-master__text,
+  .report__text,
+  .start__text {
+    text-align: left;
+    font-size: 18px;
+  }
+
+  .balance-master__title {
+    margin-bottom: 15px;
+  }
+
+  .balance-master__text {
+    margin-bottom: 20px;
+  }
+
+  .start {
+    padding-bottom: 100px;
+  }
+
+  .start__title {
+    margin-bottom: 10px;
+  }
+
+  .start__text {
+    margin-bottom: 20px;
+  }
+
+  .start__btn {
+    width: 100%;
+  }
+
+  .footer__container {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'logo'
+      'left'
+      'right'
+      'apps'
+      'social'
+      'docs';
+    padding-top: 50px;
+  }
+
+  .footer__heading {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+
+  .footer__left,
+  .footer__right {
+    gap: 15px;
+  }
+
+  .footer__left {
+    margin-bottom: 15px;
+  }
+
+  .footer-about__heading {
+    display: block;
+  }
+
+  .footer__heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .footer__arrow {
+    display: block;
+  }
+
+  .footer__logo {
+    margin-bottom: 40px;
+  }
+
+  .footer-apps__left {
+    display: none;
+  }
+
+  .footer__apps {
+    margin-top: 30px;
+    padding-bottom: 40px;
+  }
+
+  .footer__social {
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .footer__docs {
+    flex-direction: column;
+    gap: 10px;
+    padding: 40px 0 25px 0;
+  }
+
+  .footer__list,
+  .footer-about__panel,
+  .footer__contacts {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in-out;
+  }
+
+  .footer__item:first-child {
+    margin-top: 15px;
+  }
+
+  .footer__item:last-child {
+    margin-bottom: 10px;
+  }
+
+  .footer__info {
+    margin-bottom: 15px;
+  }
+
+  .footer__tel {
+    margin-bottom: 0;
+  }
+
+  .footer__contacts .footer__heading:first-child {
+    margin-top: 15px;
+  }
+
+  .footer__arrow {
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .footer__heading.active .footer__arrow {
+    transform: rotate(-180deg);
+  }
+}
