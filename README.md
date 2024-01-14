@@ -7,10 +7,10 @@ open `index.html`
 
 ## Design preview
 ### Desktop
-![Desktop design](https://github.com/jurmaev/adesk-test/assets/51710201/998d27b6-a1bd-4ead-ac4b-b79b7be53bb7)
+![1](https://github.com/jurmaev/adesk-test/assets/51710201/1f3cc071-c1f8-4e8e-bff4-2eb9651e58f8)
 
 ### Tablet
-![Tablet design](https://github.com/jurmaev/adesk-test/assets/51710201/88a9d764-7c15-4ceb-a9cd-351ac01ea567)
+![2](https://github.com/jurmaev/adesk-test/assets/51710201/771175b3-68c8-4431-b892-89c732c79b96)
 
 ### Mobile
-![Mobile design](https://github.com/jurmaev/adesk-test/assets/51710201/330f3392-a02d-4f3b-b95f-b70914ea5dce)
+![3](https://github.com/jurmaev/adesk-test/assets/51710201/775b438f-abd3-475f-ab66-e958aff987d4)
